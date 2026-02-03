@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.app {
+  text-align: center;
+}
+
+h1 {
+  background-color: #282c34;
+  color: white;
+  padding: 15px;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-link.active {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
+
+.content {
+  margin-top: 40px;
+  font-size: 20px;
+}
